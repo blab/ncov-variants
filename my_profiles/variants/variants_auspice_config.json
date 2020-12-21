@@ -1,6 +1,6 @@
 {
   "title": "Genomic epidemiology of SARS-CoV-2",
-  "build_url": "https://github.com/blab/ncov-wh/",
+  "build_url": "https://github.com/blab/ncov-variants/",
   "maintainers": [
     {"name": "Trevor Bedford", "url": "https://bedford.io/"}
   ],
