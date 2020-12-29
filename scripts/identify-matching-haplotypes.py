@@ -31,7 +31,8 @@ if __name__ == "__main__":
             if seq[positions[i]-1].upper() != wt_expected[i]:
                 include = False
         if include:
-            newwave_records.append(seq)
-            print(seq.name)
+            newwave_records.append(seq.name)
 
-    print(len(newwave_records), "total matches")
+    newwave_records.sort()
+    for record in newwave_records:
+        print(record)
